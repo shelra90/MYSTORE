@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import { Col, Row } from 'react-bootstrap'
 import axios from 'axios'
 import Product from '../components/Product'
+import products from '../products'
 
 
 const HomeScreen = () => {
