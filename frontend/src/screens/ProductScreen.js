@@ -8,7 +8,7 @@ import Rating from '../components/Rating'
 
 const ProductScreen = () => {
     const params = useParams();
-    const product = products.find(p => p._id === params.id)
+    const product =j.find(p => p._id === params.id)
 
   return (
     <>
